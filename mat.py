@@ -141,7 +141,7 @@ def vector_matrix_mul(v, M):
     returns the product of vector v and matrix M
 
     Consider using brackets notation v[...] in your procedure
-    to access entries of the input vector.  This avoids some sparsity bugs.
+    to access entries of the input vector.  This avoids some sp`arsity bugs.
 
     >>> v1 = Vec({1, 2, 3}, {1: 1, 2: 8})
     >>> M1 = Mat(({1, 2, 3}, {'a', 'b', 'c'}), {(1, 'b'): 2, (2, 'a'):-1, (3, 'a'): 1, (3, 'c'): 7})
@@ -246,6 +246,7 @@ def matrix_matrix_mul(A, B):
     True
     """
     assert A.D[1] == B.D[0]
+    mat_mul =
     pass
 
 ################################################################################
