@@ -171,7 +171,8 @@ def vector_matrix_mul(v, M):
     """
     vec_mat = Vec(M.D[1], {})
     for k in vec_mat.D:
-        vec_mat[k] = vec_mat[k] + sum([M[key1]*v[key1[0]] for key1 in M.f if key1[1] == k])
+        if sum([M[key1]*v[key1[0]] for key1 in M.f if key1[1] == k]) != 0: # for sparsity
+            vec_mat[k] = vec_mat[k] + sum([M[key1]*v[key1[0]] for key1 in M.f if key1[1] == k])
 
     return vec_mat
 
@@ -214,7 +215,8 @@ def matrix_vector_mul(M, v):
     # using Section 4.7.8
     mat_vec = Vec(M.D[0], {})
     for k in mat_vec.D:
-        mat_vec[k] = mat_vec[k] + sum([M[key1]*v[key1[1]] for key1 in M.f if key1[0] == k])
+        if sum([M[key1]*v[key1[1]] for key1 in M.f if key1[0] == k]) != 0:
+            mat_vec[k] = mat_vec[k] + sum([M[key1]*v[key1[1]] for key1 in M.f if key1[0] == k])
     return mat_vec
 
 
