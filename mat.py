@@ -246,8 +246,14 @@ def matrix_matrix_mul(A, B):
     True
     """
     assert A.D[1] == B.D[0]
-    mat_mul =
-    pass
+    mat_mul = Mat((A.D[0], B.D[1]), {})
+    for k in B.D[1]:
+        vec_col = Vec(B.D[0], {key1[0]: B[key1] for key1 in B.f if key1[1] == k})
+        for j in vec_col.D:
+            if sum([A[key1]*vec_col[key1[1]] for key1 in A.f if key1[0] == j]) != 0: # if condition for sparsity
+                mat_mul[j, k] = sum([A[key1]*vec_col[key1[1]] for key1 in A.f if key1[0] == j])
+
+    return mat_mul
 
 ################################################################################
 
