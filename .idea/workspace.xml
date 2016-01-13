@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff8edb04-2803-470a-b791-e03e785da5d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Python3_chapter4-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Python3_chapter4-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3_chapter0.ipynb" afterPath="$PROJECT_DIR$/Python3_chapter0.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3_chapter1.ipynb" afterPath="$PROJECT_DIR$/Python3_chapter1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3_chapter4.ipynb" afterPath="$PROJECT_DIR$/Python3_chapter4.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mat.py" afterPath="$PROJECT_DIR$/mat.py" />
     </list>
     <ignored path="Linear_algebra_coding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +36,8 @@
       <file leaf-file-name="mat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.154596">
-              <caret line="253" column="22" selection-start-line="253" selection-start-column="22" selection-end-line="253" selection-end-column="22" />
+            <state vertical-scroll-proportion="4.8467965">
+              <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
               <folding>
                 <element signature="e#59#78#0" expanded="true" />
               </folding>
@@ -116,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,13 +133,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WeWork_Git_repo" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -321,6 +316,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GF2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -636,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.154596">
-          <caret line="253" column="22" selection-start-line="253" selection-start-column="22" selection-end-line="253" selection-end-column="22" />
+        <state vertical-scroll-proportion="4.8467965">
+          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
           <folding>
             <element signature="e#59#78#0" expanded="true" />
           </folding>
