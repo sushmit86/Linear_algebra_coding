@@ -8,3 +8,5 @@ A = Mat(Ad,Af)
 Bd = (set([1,2,3,4]), set(['A','B','C','D']))
 Bf = {k:one for k in {(1,'A'),(1,'B'),(2,'A'),(2,'C'),(3,'B'),(3,'C'),(3,'D'),(4,'A')}}
 B=Mat(Bd, Bf)
+
+print(B)

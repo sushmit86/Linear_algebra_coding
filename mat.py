@@ -3,7 +3,7 @@
 
 from vec import Vec
 
-import matutil
+#import matutil
 
 #Test your Mat class over R and also over GF(2).  The following tests use only R.
 
