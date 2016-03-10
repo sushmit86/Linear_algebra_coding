@@ -1,5 +1,6 @@
 # Copyright 2013 Philip N. Klein
 # Changed by Sushmit Roy
+# Note this works in python 3
 
 from vec import Vec
 
@@ -72,6 +73,18 @@ def setitem(M, k, val):
     """
     assert k[0] in M.D[0] and k[1] in M.D[1]
     M.f[k] = val
+
+#  function added by Sushmit to get the input of Matrix
+
+def input_Matrix(B):
+    for i in B.D[0]:
+        for j in B.D[1]:
+            B[i, j] = input("Enter the entry for row: " + str(i) + " col: " + str(j) + " " )
+            if B[i, j].strip() == '':
+                B[i, j] = 0
+            else:
+                B[i, j] = int(B[i, j].strip())
+
 
 def add(A, B):
     """
@@ -270,6 +283,7 @@ class Mat:
     __getitem__ = getitem
     __setitem__ = setitem
     transpose = transpose
+    input_Matrix = input_Matrix
 
     def __neg__(self):
         return (-1)*self
