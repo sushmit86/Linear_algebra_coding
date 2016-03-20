@@ -128,12 +128,13 @@ def scalar_mul(M, x):
     >>> 0*M == Mat(({1, 3, 5}, {2, 4}), {})
     True
     >>> 1*M == M
-    True
+    Tru
     >>> 0.25*M == Mat(({1,3,5}, {2,4}), {(1,2):1.0, (5,4):0.5, (3,4):0.75})
     True
     """
     for k in M.f:
-        M[k] = k * M[k]
+        M[k] = x * M[k]
+    return M
 
 def transpose(M):
     """
