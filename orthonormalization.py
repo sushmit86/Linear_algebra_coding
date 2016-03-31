@@ -1,4 +1,18 @@
 # Copyright 2013 Philip N. Klein
+# Changed By Sushmit Roy
+
+from orthogonalization import *
+from vec import  *
+from mat import *
+from matutil import *
+from dictutil import dict2list, list2dict
+
+def adjust(v, multipliers):
+    for index,value in enumerate(v):
+        multipliers[index] = value * multipliers[index]
+    return multipliers
+
+
 def orthonormalize(L):
     '''
     Input: a list L of linearly independent Vecs
@@ -24,6 +38,15 @@ def orthonormalize(L):
     -0.653 0.528 -0.512 0.181
     '''
     pass
+    Lstar = orthogonalize(L)
+    for index, item in enumerate(Lstar):
+        norm = item * item # doing the dot product returns the norm
+        if norm != 0 :
+            Lstar[index] = (norm ** (-0.5))*item
+    return Lstar
+
+
+
 
 
 def aug_orthonormalize(L):
@@ -67,3 +90,12 @@ def aug_orthonormalize(L):
     d  |  2 -5  5
     '''
     pass
+    Qlist = orthonormalize(L)
+    Qlist_unormalized , Rlist = aug_orthogonalize(L)
+    v = [(item*item)**(1/2) for item in Qlist_unormalized]
+    multipliers = mat2rowdict(coldict2mat(Rlist))
+    Rlist = mat2coldict(rowdict2mat(adjust(v, multipliers)))
+    Rlist = dict2list(Rlist, range(len(Qlist)))
+    return Qlist, Rlist
+
+

@@ -11,3 +11,5 @@ def factor(A):
     Q = coldict2mat(Qlist)
     R = coldict2mat(list2dict(Rlist, col_labels))
     return Q,R
+
+
