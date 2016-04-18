@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff8edb04-2803-470a-b791-e03e785da5d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Linear_algebra_coding.iml" afterPath="$PROJECT_DIR$/.idea/Linear_algebra_coding.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Chapter11-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Chapter11-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter11.ipynb" afterPath="$PROJECT_DIR$/Chapter11.ipynb" />
@@ -47,12 +45,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matutil.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3673184">
+            <state vertical-scroll-proportion="0.0">
               <caret line="114" column="98" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="98" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orthogonalization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orthogonalization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orthonormalization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orthonormalization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#59#90#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.64944136">
               <caret line="88" column="17" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="17" />
               <folding />
             </state>
@@ -97,18 +117,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_mat_util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_mat_util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#769#779#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -387,22 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GF2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -672,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.446198">
-          <caret line="20" column="15350" selection-start-line="20" selection-start-column="15350" selection-end-line="20" selection-end-column="15350" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3_chapter1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -751,10 +736,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image.py">
+    <entry file="file://$PROJECT_DIR$/svd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="17" />
+          <caret line="575" column="10" selection-start-line="575" selection-start-column="4" selection-end-line="575" selection-end-column="10" />
+          <folding>
+            <element signature="e#1901#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="98" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orthonormalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orthogonalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.298985">
+          <caret line="20" column="15350" selection-start-line="20" selection-start-column="15350" selection-end-line="20" selection-end-column="15350" />
           <folding />
         </state>
       </provider>
@@ -769,20 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svd.py">
+    <entry file="file://$PROJECT_DIR$/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="575" column="10" selection-start-line="575" selection-start-column="4" selection-end-line="575" selection-end-column="10" />
-          <folding>
-            <element signature="e#1901#1912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3673184">
-          <caret line="114" column="98" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.64944136">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="17" />
           <folding />
         </state>
       </provider>
